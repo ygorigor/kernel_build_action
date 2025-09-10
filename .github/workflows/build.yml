@@ -15,16 +15,16 @@ jobs:
       - name: Build Kernel
         uses: dabao1955/kernel_build_action@main
         with:
-          kernel-url: https://github.com/AcmeUI-Devices/android_kernel_xiaomi_cas
-          kernel-dir: msm-4.19
-          kernel-branch: taffy
-          config: cas_defconfig
+          kernel-url: https://github.com/ygorigor/android_kernel_realme_nemo
+          kernel-dir: nemo
+          kernel-branch: lineage-23.0
+          config: nemo_defconfig
           arch: arm64
           aosp-gcc: true
           aosp-clang: true
-          ksu: true
+          ksu: false
           ksu-version: main
-          android-version: 12
-          aosp-clang-version: r383902
-          disable-lto: true
+          android-version: 16
+          aosp-clang-version: r547379
+          disable-lto: false
           anykernel3: true
