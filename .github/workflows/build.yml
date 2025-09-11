@@ -30,7 +30,7 @@ jobs:
           other-clang-branch: lineage-20.0
           ksu: false
           ksu-version: main
-          android-version: false
+         # android-version: false
           aosp-clang-version: r522817
           disable-lto: false
           anykernel3: true
