@@ -20,8 +20,10 @@ jobs:
           kernel-branch: lineage-23.0
           config: nemo_defconfig
           arch: arm64
-          aosp-gcc: true
-          aosp-clang: true
+          aosp-gcc: false
+          aosp-clang: false
+          other-clang-url: https://github.com/LineageOS/android_prebuilts_clang_kernel_linux-x86_clang-r416183b
+          other-clang-branch: lineage-20.0
           ksu: false
           ksu-version: main
           android-version: 15
