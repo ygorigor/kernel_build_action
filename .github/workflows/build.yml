@@ -22,6 +22,10 @@ jobs:
           arch: arm64
           aosp-gcc: false
           aosp-clang: false
+          other-gcc32-url: https://github.com/LineageOS/android_prebuilts_gcc_linux-x86_arm_arm-linux-androideabi-4.9
+          other-gcc32-branch: lineage-19.1
+          other-gcc64-url: https://github.com/LineageOS/android_prebuilts_gcc_linux-x86_aarch64_aarch64-linux-android-4.9
+          other-gcc64-branch: lineage-19.1
           other-clang-url: https://github.com/LineageOS/android_prebuilts_clang_kernel_linux-x86_clang-r416183b
           other-clang-branch: lineage-20.0
           ksu: false
